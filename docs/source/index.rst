@@ -1,25 +1,20 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to WhiFuN's Documentation!
+==================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+We present the White Matter Functional Networks (WhiFuN) Toolbox for automated preprocessing of WM and GM fMRI, robust construction of WM and GM Functional Networks (FN), computation of WM-FC and GM-FC, and FC analysis modules. [cite: 3]
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+WhiFuN is based on SPM12 preprocessing and contains statistical tools for group-level analyses. [cite: 4] WhiFuN provides an intuitive graphical user interface allowing users to execute all steps from preprocessing to final group level analyses and does not require prior knowledge of computer programming. [cite: 5]
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-   usage
-   api
+   getting_started
+   setup
+   preprocessing_and_qc
+   functional_networks
 
-Lumache hosts its documentation on Read the Docs.
-
+Contact Information
+-------------------
+* **Pratik Jain**: pratik.pradip.jain@gmail.com; pj44@njit.edu [cite: 11, 12]
+* **Bharat Biswal**: bbiswal@gmail.com; bharat.biswal@njit.edu [cite: 12]
