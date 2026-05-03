@@ -1,29 +1,81 @@
 Getting Started
 ===============
 
-1. Download MATLAB Toolboxes
-----------------------------
-i) Run MATLAB. [cite: 439]
-ii) Make sure you are in the Home Tab. In the Environment section click on Add-Ons. [cite: 440]
-iii) From the search bar, type the names of the following toolboxes and install them in MATLAB: [cite: 513]
-   
-   * Image processing Toolbox [cite: 514]
-   * Signal Processing Toolbox [cite: 515]
-   * Statistics and Machine learning toolbox [cite: 516]
-   * Bioinformatics Toolbox [cite: 517]
+WhiFuN is a MATLAB-based toolbox for white matter and gray matter fMRI analysis.
+For Version 3, ``MATLAB R2022a`` or later is recommended.
 
-2. Download SPM 12 and Add path to MATLAB
------------------------------------------
-i) Download SPM12 toolbox from https://www.fil.ion.ucl.ac.uk/spm/software/spm12/ [cite: 519]
-ii) Add path of SPM toolbox: [cite: 519]
+Prerequisites
+-------------
 
-   * **By MATLAB Set path (Recommended)**: In MATLAB, make sure you are in the Home tab. In the Environment section, click on Set path. [cite: 520, 521] Click on Add folder and Select the SPM folder that has the spm.m code. [cite: 565]
-   * **By MATLAB Command**: In MATLAB command window type ``addpath('X:\ ... \spm12\spm12')`` where the path is the location of the SPM 12 toolbox on your machine. [cite: 18]
+Required MATLAB toolboxes
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-3. Download WhiFuN and Add path to MATLAB
------------------------------------------
-i) Download WhiFuN from https://github.com/Brain-Connectivity-Lab/WhiFuN [cite: 19]
-ii) Unzip the contents and add path to MATLAB. [cite: 20]
-iii) **By MATLAB Set path (Recommended)**: In MATLAB, click on Set path. [cite: 20, 21] Click on Add folder and Select the WhiFuN folder that has the whifun.m code. [cite: 23]
+- Image Processing Toolbox
+- Signal Processing Toolbox
+- Statistics and Machine Learning Toolbox
+- Bioinformatics Toolbox (required for ``mafdr`` FDR correction)
 
-Once all the paths are added, type ``whifun`` in the MATLAB command window and the WhiFuN GUI will pop up. [cite: 26]
+Optional MATLAB toolbox
+~~~~~~~~~~~~~~~~~~~~~~~
+
+- Parallel Computing Toolbox (recommended for faster processing)
+
+All toolboxes can be installed through MATLAB Add-Ons:
+https://www.mathworks.com/help/matlab/matlab_env/get-add-ons.html
+
+Install SPM12
+-------------
+
+1. Download SPM12 from:
+   https://www.fil.ion.ucl.ac.uk/spm/software/spm12/
+2. Add SPM12 to your MATLAB path using one of the methods below.
+
+**Option A (recommended, persistent):**
+
+- MATLAB ``Home`` tab -> ``Environment`` -> ``Set Path``
+- Click ``Add Folder``
+- Select the SPM folder containing ``spm.m``
+- Click ``Save`` -> ``Close``
+
+**Option B (temporary, command window):**
+
+.. code-block:: matlab
+
+   addpath('<path to spm12 folder>')
+
+Download WhiFuN
+---------------
+
+1. Go to: https://github.com/Brain-Connectivity-Lab/WhiFuN
+2. Click the green ``Code`` button -> ``Download ZIP``
+3. Extract the ZIP to a local folder (about 24 MB disk space)
+
+Add WhiFuN to MATLAB Path
+-------------------------
+
+After extraction, add the WhiFuN folder (the one containing ``whifun.m``)
+to the MATLAB path.
+
+**Option A (recommended, persistent):**
+
+- MATLAB ``Home`` tab -> ``Environment`` -> ``Set Path``
+- Click ``Add Folder``
+- Select the WhiFuN folder containing ``whifun.m``
+- Click ``Save`` -> ``Close``
+
+**Option B (temporary, command window):**
+
+.. code-block:: matlab
+
+   addpath('<path to WhiFuN folder>')
+
+Launch WhiFuN
+-------------
+
+Once SPM12 and WhiFuN paths are added, run:
+
+.. code-block:: matlab
+
+   whifun
+
+The main WhiFuN GUI will open.
