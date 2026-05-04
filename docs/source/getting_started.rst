@@ -79,3 +79,10 @@ Once SPM12 and WhiFuN paths are added, run:
    whifun
 
 The main WhiFuN GUI will open.
+
+.. figure:: ../WhiFuN_GUI.png
+   :alt: WhiFuN v3.2 main GUI
+   :align: center
+   :width: 100%
+
+   WhiFuN v3.2 main GUI.
