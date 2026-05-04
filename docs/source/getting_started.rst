@@ -84,3 +84,5 @@ The main WhiFuN GUI will open.
 
 <img width="942" height="817" alt="Screenshot 2025-07-19 103118" src="https://github.com/user-attachments/assets/1e2dcc53-3d32-4ced-9546-6277422dd742" />
 
+![Screenshot 2025-03-13 164232](https://github.com/user-attachments/assets/4841cb8a-878e-48d6-87cc-41d8671b602a)
+
