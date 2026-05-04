@@ -81,4 +81,3 @@ Once SPM12 and WhiFuN paths are added, run:
 The main WhiFuN GUI will open.
 
 .. image:: /docs/WhiFuN_GUI.png
-![Image](/docs/WhiFuN_GUI.png)
