@@ -3,7 +3,6 @@ Getting Started
 
 Prerequisites
 -------------
-WhiFuN is a MATLAB-based toolbox for white matter and gray matter fMRI analysis.
 For Version 3, ``MATLAB R2022a`` or later is recommended.
 
 Required MATLAB toolboxes
