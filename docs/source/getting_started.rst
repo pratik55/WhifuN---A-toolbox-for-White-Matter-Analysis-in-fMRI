@@ -78,7 +78,7 @@ Once SPM and WhiFuN paths are added, run:
 
 The main WhiFuN GUI will open.
 
-.. figure:: ../WhiFuN_GUI.png
+.. figure:: ../figures/WhiFuN_GUI.png
    :alt: WhiFuN v3.2 main GUI
    :align: center
    :width: 100%
