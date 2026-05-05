@@ -1,11 +1,10 @@
 Getting Started
 ===============
 
-WhiFuN is a MATLAB-based toolbox for white matter and gray matter fMRI analysis.
-For Version 3, ``MATLAB R2022a`` or later is recommended.
-
 Prerequisites
 -------------
+WhiFuN is a MATLAB-based toolbox for white matter and gray matter fMRI analysis.
+For Version 3, ``MATLAB R2022a`` or later is recommended.
 
 Required MATLAB toolboxes
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -23,12 +22,12 @@ Optional MATLAB toolbox
 All toolboxes can be installed through MATLAB Add-Ons:
 https://www.mathworks.com/help/matlab/matlab_env/get-add-ons.html
 
-Install SPM12
+Install SPM
 -------------
 
-1. Download SPM12 from:
-   https://www.fil.ion.ucl.ac.uk/spm/software/spm12/
-2. Add SPM12 to your MATLAB path using one of the methods below.
+1. Download SPM from:
+   https://github.com/spm/spm/releases/tag/25.01.02
+2. Add SPM to your MATLAB path using one of the methods below.
 
 **Option A (recommended, persistent):**
 
@@ -41,14 +40,14 @@ Install SPM12
 
 .. code-block:: matlab
 
-   addpath('<path to spm12 folder>')
+   addpath('<path to spm folder>')
 
 Download WhiFuN
 ---------------
 
 1. Go to: https://github.com/Brain-Connectivity-Lab/WhiFuN
 2. Click the green ``Code`` button -> ``Download ZIP``
-3. Extract the ZIP to a local folder (about 24 MB disk space)
+3. Extract the ZIP to a local folder
 
 Add WhiFuN to MATLAB Path
 -------------------------
@@ -72,7 +71,7 @@ to the MATLAB path.
 Launch WhiFuN
 -------------
 
-Once SPM12 and WhiFuN paths are added, run:
+Once SPM and WhiFuN paths are added, run:
 
 .. code-block:: matlab
 
