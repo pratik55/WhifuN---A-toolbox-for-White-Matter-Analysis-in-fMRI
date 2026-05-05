@@ -4,18 +4,6 @@ Setup
 The Setup section defines where WhiFuN reads participant MRI data from and
 where all outputs are written.
 
-GUI Overview
-------------
-
-The WhiFuN GUI is divided into six subsections:
-
-1. **Setup and Check Data**
-2. **Preprocessing**
-3. **Functional Networks (FNs) and Functional Connectivity (FC)**
-4. **Analyzing the FC and FNs**
-5. **Visualization**
-6. **Save/Load Parameters**
-
 Output Folder
 -------------
 
