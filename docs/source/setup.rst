@@ -1,5 +1,9 @@
 Setup
 =====
+.. figure:: ../figures/Setup.png
+   :alt: Setup and Data Check
+   :align: center
+   :width: 100%
 
 The Setup section defines where WhiFuN reads participant MRI data from and
 where all outputs are written.
