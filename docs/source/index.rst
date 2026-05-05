@@ -2,12 +2,11 @@ Welcome to WhiFuN's Documentation!
 ==================================
 
 WhiFuN (White Matter Functional Networks) is a GUI-based MATLAB toolbox for
-automated preprocessing of WM and GM fMRI, robust construction of WM and GM
-Functional Networks (FNs), computation of WM-FC and GM-FC, and downstream FC
+automated preprocessing of fMRI images, robust construction of White Matter (WM) and Gray Matter (GM)
+Functional Networks (FNs), computation of WM and GM Functional Connectivity (FC), and downstream FC
 analysis.
 
-WhiFuN is based on SPM12 preprocessing and includes statistical and
-visualization tools for group-level analyses. The GUI is designed so you can
+WhiFuN GUI is designed so you can
 run the workflow from setup to analysis without writing code, while also
 supporting script-based workflows for automation.
 
@@ -41,5 +40,4 @@ What's New in Version 3
 Contact Information
 -------------------
 
-* **Pratik Jain**: pratik.pradip.jain@gmail.com; pj44@njit.edu
-* **Bharat Biswal**: bbiswal@gmail.com; bharat.biswal@njit.edu
+* **Pratik Jain**: jainpratik412@gmail.com; pj44@njit.edu
