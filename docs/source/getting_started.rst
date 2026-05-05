@@ -84,3 +84,15 @@ The main WhiFuN GUI will open.
    :width: 100%
 
    WhiFuN v3.2 main GUI.
+
+GUI Overview
+------------
+
+The WhiFuN GUI is divided into six subsections:
+
+1. **Setup and Check Data**
+2. **Preprocessing**
+3. **Functional Networks (FNs) and Functional Connectivity (FC)**
+4. **Analyzing the FC and FNs**
+5. **Visualization**
+6. **Save/Load Parameters**
